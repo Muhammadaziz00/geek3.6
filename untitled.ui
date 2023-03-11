@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>566</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>bank</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 28pt &quot;MS Shell Dlg 2&quot;;
+
+background-color: black;
+border-radius: 10px;
+
+</string>
+    </property>
+    <property name="text">
+     <string>geeks bank</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="login">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>120</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+
+
+background-color: red;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Логин</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="password">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>120</y>
+      <width>311</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+
+
+background-color: red;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Пароль</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="signup">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>340</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+
+
+background-color: white;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Войти</string>
+    </property>
+    <property name="placeholderText">
+     <string>Войти</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="signin">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>260</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: red;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+
+
+background-color: white;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="text">
+     <string>Регистрация</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="error">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>400</y>
+      <width>791</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+font: 16pt &quot;MS Shell Dlg 2&quot;;
+
+
+background-color: red;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="text">
+     <string>неправельные данные</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
